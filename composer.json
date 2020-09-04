@@ -1,0 +1,15 @@
+{
+    "authors": [
+        {
+            "name": "yan",
+            "email": "email@example.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Alura\\DesignPattern\\": "src/"
+        }
+    },
+    "require": {
+    }
+}
