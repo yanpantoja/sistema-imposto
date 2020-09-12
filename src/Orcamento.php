@@ -7,7 +7,7 @@ use Alura\DesignPattern\EstadosOrcamento\EstadoOrcamento;
 
 class Orcamento
 {
-    public int $quantidadeItems;
+    public int $quantidadeItens;
     public float $valor;
     public EstadoOrcamento $estadoAtual;
 

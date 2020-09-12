@@ -24,7 +24,7 @@ class GerarPedidoHandler
     public function execute(GerarPedido $gerarPedido)
     {
         $orcamento = new Orcamento();
-        $orcamento->quantidadeItems = $gerarPedido->getNumeroDeItens();
+        $orcamento->quantidadeItens = $gerarPedido->getNumeroDeItens();
         $orcamento->valor = $gerarPedido->getValorOrcamento();
 
         $pedido = new Pedido();

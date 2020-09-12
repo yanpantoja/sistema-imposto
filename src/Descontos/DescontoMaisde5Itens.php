@@ -8,7 +8,7 @@ class DescontoMaisde5Itens extends Desconto
 {
     public function calculaDesconto(Orcamento $orcamento): float
     {
-        if($orcamento->quantidadeItems > 5) {
+        if($orcamento->quantidadeItens > 5) {
             return $orcamento->valor * 0.1;
         }
 
