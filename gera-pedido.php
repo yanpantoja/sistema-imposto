@@ -10,5 +10,8 @@ $nomeCliente = $argv[3];
 
 $gerarPedido = new GerarPedido($valorOrcamento, $numeroDeItens, $nomeCliente);
 $gerarPedidoHandler = new GerarPedidoHandler();
+$gerarPedidoHandler->adicionarAcaoAoGerarPedido(new \Alura\DesignPattern\AcoesAoGerarPedido\CriarPedidoNoBanco());
+$gerarPedidoHandler->adicionarAcaoAoGerarPedido(new \Alura\DesignPattern\AcoesAoGerarPedido\EnviarPedidoPorEmail());
+$gerarPedidoHandler->adicionarAcaoAoGerarPedido(new \Alura\DesignPattern\AcoesAoGerarPedido\LogGerarPedido());
 $gerarPedidoHandler->execute($gerarPedido);
 
