@@ -1,6 +1,8 @@
 ## Sistema para cálculo de impostos a partir de um orçamento
 
-### Tecnologias e padrõs utilizados:
+
+### Tecnologias e padrões utilizados:
+
 
 **1. Design Patterns com PHP: Padrões comportamentais**
 
