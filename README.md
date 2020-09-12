@@ -2,19 +2,26 @@
 
 ### Tecnologias e padrõs utilizados:
 
-1. Design Patterns com PHP: Padrões comportamentais
+**1. Design Patterns com PHP: Padrões comportamentais**
 
-- Strategy
+1.1. Strategy
+
     - Trocar múltiplas condicionais por classes
-- Chain Of Responsibility
+1.2. Chain Of Responsibility
+
     - Cadeia de algoritmos
-- Template Method
+1.3. Template Method
+
     - Template de algoritmo para ser reaproveitado através de herança
-- State
+1.4. State
+
     - Ação de um método depende do seu estado
-- Command
+1.5. Command
+
     - Técnica de extração do caso de uso para uma classe específica
-- Observer
+1.6. Observer
+
     - Ligar um evento ocorrido com suas ações
-- Iterator
+1.7. Iterator
+
     - Acessar e percorrer um objeto
